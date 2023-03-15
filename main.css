@@ -85,6 +85,7 @@ body{
 }
 
 #banner2 {
+	display: flex;
 	background-image: linear-gradient(to left, transparent 70%, rgb(68, 67, 67)), url("Images/KidsClass.jpg");
 	background-repeat: no-repeat;
 	background-position: left;
@@ -99,6 +100,7 @@ body{
 
 .banner_container2 {
 	color: white;
+	justify-content: center;
 	background-color: black;
 	background-image: linear-gradient(to right,  black,rgb(68, 67, 67));
 }
